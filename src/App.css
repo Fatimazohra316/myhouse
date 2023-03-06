@@ -1,0 +1,1210 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.justin {
+  width: 5rem;
+}
+
+.contain {
+  max-width: 1600px;
+  display: block;
+  margin: 0 auto;
+}
+input:focus{
+  outline: none;
+}
+.signUp {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.hello {
+  color: rgba(67, 67, 130, 1);
+  font-size: 42px;
+  font-weight: 300;
+}
+
+.user {
+  font-weight: 800;
+}
+
+.better {
+  color: rgba(67, 67, 130, 1);
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.name {
+  background-color: rgba(246, 247, 249, 1);
+  color: rgba(95, 96, 185, 0.8);
+  width: 60%;
+  border: none;
+  border-radius: 14.1861px;
+  padding: 2.5% 5%;
+  margin-top: 5%;
+}
+
+.name::placeholder {
+  color: rgba(95, 96, 185, 0.8);
+}
+
+.signUpBtn {
+  text-align: center;
+  background-color: #5F60B9;
+  border-radius: 13.8667px;
+  width: 60%;
+  border: none;
+  padding: 2% 2%;
+  color: white;
+  margin-top: 5%;
+}
+
+.account {
+  color: rgba(161, 162, 214, 1);
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 3%;
+}
+
+.signIn {
+  color: rgba(67, 67, 130, 1);
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.houseBubble {
+  width: 100%;
+}
+
+.quality {
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(67, 67, 130, 1);
+  line-height: 24px;
+  width: 70%;
+}
+
+.message {
+  color: red;
+  font-weight: 200;
+  font-size: 20px;
+  margin-top: 2%;
+
+}
+
+.message2 {
+  color: green;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 2%;
+
+}
+
+.mainNavBar {
+  background-color: rgba(95, 96, 185, 1);
+}
+
+.navbar {
+  padding-top: 1% !important;
+}
+
+.houseSweep {
+  width: 14vw;
+}
+
+.inputDiv {
+  background-color: #fff;
+  display: flex;
+  width: 30rem;
+  border-radius: 8px;
+  padding: 2% 5%;
+  border: none;
+  align-items: center;
+
+  /* height: 50px; */
+  /* padding: 5%; */
+}
+
+.inputdiv {
+  border: none !important;
+  margin-left: 2%;
+  color: rgba(67, 67, 130, 1);
+
+}
+
+.search {
+  width: 1rem;
+}
+
+.imageDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 27%;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.linkDiv {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 3%;
+  list-style-type: none;
+
+}
+
+.linkDiv a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 1.5% 4%;
+  display: flex;
+  align-items: center;
+}
+
+.service {
+  filter: brightness(3.5);
+
+}
+
+.linkDiv .active {
+  background-color: #fff;
+  color: rgba(95, 96, 185, 1) !important;
+  border-radius: 10px 10px 0px 0px;
+  padding-top: 1%;
+
+  padding-bottom: 1%;
+  /* margin-top: 5%; */
+}
+
+.card-body {
+  box-shadow: 0px 0px 8.90401px rgba(225, 204, 255, 0.4);
+  border-radius: 19.2008px;
+}
+
+.cardHalfPart {
+  background-color: rgba(240, 240, 250, 1);
+  padding: 5%;
+  border-radius: 19.2008px 19.2008px 0px 0px;
+  /* height: 100px; */
+  /* width: 100px; */
+}
+
+.cardMainDiv {
+  display: grid;
+  grid-template-columns: 14% 14% 14% 14% 14% 14%;
+  justify-content: space-around;
+  /* width: 55%; */
+  margin-top: 5%;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+.category {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+  color: rgba(67, 67, 130, 1);
+  padding: 8%;
+}
+
+.welcome {
+  color: rgba(67, 67, 130, 1);
+  font-size: 31px;
+  font-weight: 300;
+  margin-top: 5%;
+}
+
+.justine {
+  font-weight: 800;
+}
+
+.services {
+  font-size: 23px;
+  font-weight: 500;
+  color: rgba(67, 67, 130, 1);
+  margin-top: 3%;
+}
+
+.cleaning {
+  margin-left: 1%;
+}
+
+.mainDiv {
+  /* display: flex; */
+  margin-top: 5%;
+}
+
+.itemImage {
+  border-radius: 20px;
+
+  width: 15rem;
+}
+
+.itemDiv {
+  display: flex;
+  align-items: flex-start;
+  /* margin-left: 5%; */
+}
+
+.cleanings {
+  font-size: 29px;
+  font-weight: 500;
+  color: rgba(67, 67, 130, 1);
+}
+
+.price {
+  font-size: 26.33px;
+  font-weight: 700;
+  color: rgba(95, 96, 185, 1);
+  margin-top: 5%;
+}
+
+.durationButton {
+  background-color: rgba(237, 237, 247, 1);
+  color: rgba(67, 67, 130, 1);
+  border: none;
+  border-radius: 6px;
+  padding: 2% 5%;
+  font-weight: 500;
+  /* display: flex; */
+  align-items: center;
+  margin-top: 10%;
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.cleaningDiv {
+  margin-left: 3%;
+}
+
+.description {
+  font-size: 29px;
+  font-weight: 500;
+  color: rgba(95, 96, 185, 1);
+  margin-top: 3%;
+}
+
+.des {
+  font-size: 20px;
+  color: rgba(63, 61, 86, 1);
+  font-weight: 400;
+  margin-top: 2%;
+}
+
+.secondMainDiv {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-around;
+  margin-bottom: 10%;
+
+
+}
+
+.secondService {
+  height: 200px;
+  width: 100%;
+  margin-top: 10%;
+  border-radius: 12px 12px 0px 0px;
+  box-shadow: 0px 0px 10px rgba(225, 204, 255, 0.25);
+}
+
+.categoryButton {
+  border: 0;
+  font-size: 10px;
+  font-weight: 600;
+  color: rgba(95, 96, 185, 1);
+  padding: 1% 5%;
+  border-radius: 17px;
+  margin-left: 5%;
+  margin-top: 10px;
+}
+
+.categorybutton {
+  border: 0;
+  position: absolute;
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+  background-color: rgba(95, 96, 185, 1);
+  padding: 5px 15px;
+  border-radius: 17px;
+  margin-left: 11%;
+  margin-top: 9.75%;
+}
+
+.rating {
+  color: rgba(75, 177, 58, 1);
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 4%;
+}
+
+.ratingDiv {
+  display: flex;
+  align-items: center;
+}
+
+.secondCard {
+
+  /* border-radius: 12px; */
+}
+
+.washroomDiv {
+  border-radius: 0px 0px 12px 12px;
+  box-shadow: 0px 0px 10px rgba(225, 204, 255, 0.25);
+  /* padding-left: 10%; */
+  /* margin-top: 20px; */
+  padding: 2% 10%;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(67, 67, 130, 1);
+
+}
+
+.cardMainDivs {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  justify-content: space-between;
+  /* width: 55%; */
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.card-bodys {
+  box-shadow: 0px 0px 8.90401px rgba(225, 204, 255, 0.4);
+  border-radius: 19.2008px;
+  margin-top: 10%;
+}
+
+.historical {
+  font-size: 37px;
+  font-weight: 500;
+  color: rgba(67, 67, 130, 1);
+  margin-top: 3%;
+}
+
+.pending {
+  background-color: rgba(95, 96, 185, 1) !important;
+  color: #fff !important;
+  padding: .5rem 4% !important;
+  font-weight: 500;
+}
+
+.completed {
+  background-color: rgba(246, 247, 249, 1) !important;
+  color: rgba(67, 67, 130, 1) !important;
+  padding: .5rem 4% !important;
+  font-weight: 500;
+  margin-left: 2%;
+}
+
+.buttonPart {
+  margin-top: 4%;
+  display: flex;
+}
+
+.serviceName {
+  background: #5F60B9;
+  border: 1px solid #5F60B9;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2.5rem;
+  margin-top: 5%;
+}
+
+.serviceNames {
+  background: #F6F7F9;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: .5rem 4rem;
+  margin-top: 3%;
+  color: #434382;
+}
+
+.names {
+  font-weight: 600;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.bookingId {
+  display: flex;
+  justify-content: space-around;
+  width: 76%;
+  font-weight: 600;
+  color: #fff;
+}
+
+.nam {
+  font-weight: 600;
+  color: #434382;
+  margin-left: 1rem;
+}
+
+.booking {
+  display: flex;
+  justify-content: space-around;
+  width: 76%;
+  font-weight: 600;
+  color: #434382;
+}
+
+.rectangleBox {
+  background-color: #5F60B9;
+  border-radius: 11px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.support {
+  margin-left: .5rem;
+}
+
+.sweep {
+  width: 2vw;
+}
+
+.todayButton {
+  background-color: #434382 !important;
+  color: #fff !important;
+  padding: 15px 4rem;
+  margin-top: 4%;
+  /* display: block; */
+  /* margin: 0 auto !important; */
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.round {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+
+}
+
+.tri-right.btm-left:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0px;
+  right: auto;
+  top: auto;
+  bottom: -6px;
+  border: 15px solid;
+  border-color: transparent transparent transparent #5657A7;
+}
+
+.talk-bubble {
+  margin: 15px;
+  display: inline-block;
+  position: relative;
+  /* width: 200px; */
+  height: auto;
+  background-color: #5657A7;
+}
+
+.talktext {
+  padding: 0.5rem 2rem 0rem 2rem;
+  text-align: left;
+  line-height: 1.5em;
+  color: #fff;
+}
+
+.chatBubble {
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+  margin-top: 3%;
+}
+
+.image5 {
+  width: 3rem;
+}
+
+.time {
+  margin-left: 5%;
+}
+
+.tri-right.btm-right:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: 0px;
+  bottom: -5px;
+  border: 12px solid;
+  border-color: #EFEBFB #EFEBFB transparent transparent;
+}
+
+.talk-bubbles {
+  margin: 15px;
+  display: inline-block;
+  position: relative;
+  /* width: 200px; */
+  height: auto;
+  background-color: #EFEBFB;
+  /* float: right; */
+}
+
+.talktexts {
+  padding: 0.5rem 2rem 0rem 2rem;
+  text-align: left;
+  line-height: 1.5em;
+  color: #434382;
+}
+
+/* .chatBubbles{
+  width: 50%;
+  float: right;
+} */
+.times {
+  /* margin-left: 5%; */
+  /* float: right; */
+}
+
+.bubbleDiv {
+  /* float: right; */
+  display: block;
+  /* margin-left: auto; */
+}
+
+.messageDiv {
+  /* margin-top: 4%; */
+  width: 99%;
+  height: 50px;
+  background: rgba(239, 235, 250, 0.7);
+  border-radius: 8px;
+  border: none;
+  padding: 1rem;
+
+
+}
+
+.messageDiv ::placeholder {
+  color: #5657A7 !important;
+}
+
+.messagess {
+  display: grid;
+  grid-template-columns: 95% 5%;
+  align-items: center;
+  /* margin-top: 10%; */
+}
+
+.chatBubbles {
+  display: flex;
+  justify-content: end;
+  /* margin-left: 90%; */
+  /* float: right; */
+  /* position: absolute; */
+  /* right: 20%; */
+  /* top: 10%; */
+}
+
+.continueButton {
+  background-color: #434382 !important;
+  color: #fff !important;
+  width: 20%;
+  height: 40px;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.continueDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.stepper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ones {
+  border-radius: 30px !important;
+  background-color: #5F60B9 !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
+
+.two {
+  border-radius: 30px !important;
+  background-color: white !important;
+  color: #5F60B9 !important;
+  padding: 10px 20px !important;
+  border: 1px solid #434382 !important;
+  display: block;
+  margin: auto;
+  /* display: block !important; */
+  /* margin: auto; */
+}
+
+.onePart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.dottedLine {
+  margin: 30px;
+  position: relative;
+  top: -20px;
+}
+
+#stepOne {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  margin-top: 8%;
+  justify-content: end;
+}
+
+.serviceText {
+  font-size: 18px;
+  font-weight: 500;
+  color: #434382;
+  margin-top: 2%;
+}
+
+.btn {
+  display: block !important;
+}
+
+.calender {
+  width: 2rem;
+}
+
+.calenderDiv {
+  display: flex;
+  align-items: center;
+  background: #F6F7F9;
+  border-radius: 14.1861px;
+  width: 70%;
+  padding: 1rem;
+}
+
+.calenderInput {
+  border: none;
+  background: #F6F7F9;
+  margin-left: 2%;
+  width: 90%;
+}
+
+.calenderInput:focus {
+  outline: none;
+}
+
+.calenderInput::placeholder {
+  color: #5F60B9CC;
+  /* margin-left: 2%; */
+}
+
+.deliveryDates {
+  font-weight: 500;
+  font-size: 19px;
+  color: #434382;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 69%;
+}
+
+.deliveryCalender {
+  margin-top: 5%;
+}
+
+.current {
+  font-size: 17px;
+  font-weight: 400;
+  color: #5F60B9;
+  ;
+}
+
+.deliveryDate {
+  font-weight: 500;
+  font-size: 19px;
+  color: #434382;
+}
+
+#stepTwo {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  margin-top: 8%;
+  justify-content: end;
+  align-items: center;
+  /* display: none; */
+}
+
+.incrementDiv {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.increment {
+  border-radius: 30px !important;
+  background-color: #5F60B9 !important;
+  color: white !important;
+  /* padding: 10px 20px !important; */
+  /* display: block; */
+  margin: 0 auto;
+  border: none;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.decrement {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.contains {
+  display: flex;
+  margin-top: 2%;
+}
+
+#male {
+  height: 25px;
+  width: 25px;
+}
+
+.right {
+  margin-left: 3%;
+  font-size: 17px;
+  font-weight: 500;
+  color: #434382;
+  /* margin-top: 1%; */
+}
+
+#female {
+  height: 25px;
+  width: 25px;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  accent-color: purple;
+}
+
+.right span {
+  font-weight: 300;
+}
+
+.priceDiv {
+
+  /* text-align: center; */
+  background: #F6F7F9;
+  border-radius: 14.1861px;
+  margin-top: 5%;
+  padding: 1rem;
+  font-size: 22px;
+  font-weight: 400;
+  color: #434382;
+  display: block;
+  margin: 5% auto;
+  width: 50%;
+}
+
+#stepThree {
+  /* display: none; */
+}
+
+.bookingConfirmed {
+  background-color: #F6F7F9;
+  display: block;
+  margin: auto;
+  width: 50%;
+  box-shadow: 0px 0px 22.3226px #F6F7F9;
+  border-radius: 15.8336px;
+  margin-top: 10%;
+  padding: 5%;
+}
+
+.check {
+  display: block;
+  margin: auto;
+}
+
+.confirmBooking {
+  font-size: 25px;
+  font-weight: 500;
+  color: #434382;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.confirmBooking2 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #5F60B9;
+  text-align: center;
+  margin-top: 3%;
+  width: 66%;
+  display: block;
+  margin: auto;
+
+}
+
+.nextButton {
+  display: block;
+  margin: auto;
+  width: 25%;
+  background: #5F60B9;
+  border-radius: 13.8667px;
+  color: white;
+  border: none;
+  padding: .5rem;
+  font-size: 22px;
+  font-weight: 500;
+  border: none;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.change-color {
+  background-color: black;
+  color: white;
+  content: url("images/calender.png");
+}
+
+.ticks {
+  display: block;
+  margin: 0 auto;
+}
+
+.marginService {
+  margin-top: 12%;
+}
+
+::-webkit-calendar-picker-indicator {
+  /* filter: invert(0.8); */
+  color: #5F60B9CC;
+}
+
+#datePicker {
+  /* background-color: #5657A7 !important; */
+  color: #5F60B9CC !important;
+}
+
+#timePicker {
+  /* background-color: #5657A7 !important; */
+  color: #5F60B9CC !important;
+}
+
+.profileDiv {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.details {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.detailDiv {
+
+  /* text-align: center; */
+  background: #F6F7F9;
+  border-radius: 14.1861px;
+  margin-top: 5%;
+  padding: 1rem;
+  font-size: 22px;
+  font-weight: 400;
+  color: #434382;
+  display: block;
+  margin: 5% auto;
+  /* width: 50%; */
+}
+
+.profilesDiv {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-around; */
+}
+
+.informationDiv {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: space-between;
+  /* margin-top: 10% */
+}
+
+.emailDiv {
+  background-color: #F6F7F9;
+  border-radius: 8px;
+
+
+}
+
+.emailDiv input {
+  width: 100%;
+  border: none;
+  background-color: #F6F7F9;
+  height: 50px;
+  border-radius: 8px;
+  padding: 1rem;
+  color: #5F60B9;
+}
+
+.emailDiv input:focus {
+  outline: none;
+}
+
+.emailAddress input::placeholder {
+  color: #5F60B9 !important;
+}
+
+.emailAddress {
+  font-size: 20px;
+  font-weight: 500;
+  color: #434382;
+  margin-top: 5%;
+}
+
+.emailDiv input::placeholder {
+  /* outline: none; */
+  color: #434382;
+}
+
+.logout {
+  background-color: white;
+  color: #5657A7;
+  border-radius: 8px;
+  border: none;
+  padding: .5rem;
+}
+
+.login {
+  background-color: white;
+  color: #5657A7;
+  border-radius: 8px;
+  border: none;
+  padding: .5rem;
+  width: 10%;
+}
+
+.loginRequired {
+  background-color: #F6F7F9;
+  color: #434382;
+  text-align: center;
+  width: 30% !important;
+  margin-top: 3%;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 4rem;
+  border-radius: 30px;
+
+}
+
+
+.box {
+  background: #F4F1FC;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    width: 40%;
+    display: block;
+    margin: 5% auto;
+    padding: 2%;
+    position: absolute;
+    /* bottom: 127%; */
+    top: 35%;
+    left: 30%;
+    padding: 5rem;
+}
+.access{
+  font-size: 24px;
+  font-weight: 800;
+  color: #434382;
+  margin-top: 5%;
+  text-align: center;
+
+}
+.dontAccount{
+  font-size: 18px;
+  font-weight: 500;
+  color: #434382;
+  text-align: center;
+}
+
+.dontAccount span{
+  font-weight: 800;
+}
+.close{
+  position: absolute;
+  right: 8%;
+  width: 2rem;
+
+}
+
+.emailInput{
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  padding: 1rem;
+}
+.emailInput:focus{
+  outline: none;
+}
+
+.emaildiv{
+  font-size: 20px;
+  font-weight: 500;
+  color: #434382;
+  margin-top: 5%;
+}
+.loginButton{
+  background-color: #434382;
+  color: #EFEBFB;
+  display: block;
+  margin: 7% auto;
+  border: none;
+  border-radius: 10px;
+  width: 40%;
+  /* height: 30px; */
+  padding: 0.5rem;
+}
+.fieldDate{
+  color: #B33A3A;
+  font-size: 16px;
+  /* font-weight: 400; */
+  margin-top: 2%;
+}
+.service:hover {
+ 
+  color: #fff  !important;
+ 
+}
+.marginLeft{
+  margin-left: 1rem;
+}
+.cardMainsDiv {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.inputDivs {
+  background-color: rgba(240, 240, 250, 1);
+  display: flex;
+  width: 30rem;
+  border-radius: 8px;
+  padding: 0.5rem 3%;
+  border: none;
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 2%;
+
+  /* height: 50px; */
+  /* padding: 5%; */
+}
+
+.inputdivs {
+  border: none !important;
+  margin-left: 2%;
+  color: rgba(67, 67, 130, 1);
+  background-color: rgba(240, 240, 250, 1) !important;
+
+}
+.searchingDiv {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-around;
+  margin-bottom: 10%;
+}
+.searchingService {
+  height: 200px;
+  width: 100%;
+  margin-top: 10%;
+  border-radius: 12px 12px 0px 0px;
+  box-shadow: 0px 0px 10px rgba(225, 204, 255, 0.25);
+}
+.left{
+  margin-top: 5%;
+  margin-left: 2%;
+}
